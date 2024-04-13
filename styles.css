@@ -1,0 +1,190 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEADB;
+}
+
+h2{
+    font-family:"DM Sans", sans-serif;
+    font-size: 500;
+    font-size: 20px;
+    color: #000;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+h3{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;  
+    justify-content: flex-start;
+}
+
+p{
+    line-height: 2;
+    padding-top: 30px;
+}
+
+
+ /* Navbar */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #FFBABA;
+}
+
+li a{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Video Section */
+.video-section{
+    align-content: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+}
+.main{
+    grid-area:content ;
+    padding: 2rem;
+    background-color: #F5EDDC;
+}
+
+/* About Section */
+.image-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    font-family:"DM Sans", sans-seriff;
+}
+
+.selfie{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.bottom-container{
+    padding:20px;
+  }
+
+.footer-home{
+    padding-top: 15%;
+}
+
+.paragraph{
+    padding: 20px 0;
+    color: black;
+    font-size: 0.90rem;
+    font-family:"DM Sans", sans-seriff;
+    text-align: center;
+}
+
+.footer-link{
+    color:black;
+    transition: 0.3s ease 0s;
+    font-family:"DM Sans", sans-seriff;
+    margin: 10px 20px;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .footer-link:hover{
+    color: #FC819E;
+  }
+
+  .google-maps{
+   float: right;
+   margin-right: 15%;
+  } 
+
+  /* About Me Page */
+ .content{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    font-family:"DM Sans", sans-seriff;
+}
+
+  .content-img{
+    width: 40%;
+    float: left;
+    margin-right: 30px;   
+  }
+  
+  .introduction{
+    padding: 20px 0;
+    color: black;
+    font-size: 1rem;
+    font-family:"DM Sans", sans-seriff;
+    text-align: center;
+    text-align: justify;
+
+}
+
+
+  /* Contact Me */
+  .column-1{
+    font-family:"DM Sans", sans-seriff;
+    font-size: 16px;
+    float: left;
+    padding-left: 15%;
+    padding-top: 80px;
+  }
+
+ .text-msg{
+    font-family:"DM Sans", sans-seriff;
+    text-align: center;
+    padding-top: 0;
+} 
+
+dt{
+    font-weight: 700;
+}
+.image{
+    width: 35%;
+    height: auto;
+    float: right;
+    margin-right: 20%;
+    padding-top: 50px;
+}
+
+.footer-container{
+    padding-top: 30%;
+}
