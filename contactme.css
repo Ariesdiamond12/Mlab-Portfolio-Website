@@ -59,6 +59,14 @@ nav ul li a:hover{
     color: #FFFFFF;
 }
 
+.hidden{
+    display: none;
+}
+
+span{
+    color: #F10086;
+}
+
 .text{
     color: #FFFFFF;
 }
