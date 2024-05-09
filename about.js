@@ -1,0 +1,5 @@
+let introTitle = document.getElementById("introTitle").innerHTML = "About Precious";
+console.log(introTitle);
+
+let intro = document.getElementById("intro").innerHTML = "Tumisho Precious Marokane was born on 12th of April, and my journey to coding began back in 2019 when I was introduced to the world of IT during my first year at Rosebank College. I didn't really know much about IT except that you have to write long lines of complicated code in order for smart devices, computers etc to be able to perform certain functions and give us outputs. Initially I wanted to go and do radiography but after being introduced to it and learning about it, I fall in love with how technology makes our lives easier by automating tasks that would usually take hours to complete.Throuhgout these recent years I have grown a love and appreciation for coding.";
+console.log(intro);
