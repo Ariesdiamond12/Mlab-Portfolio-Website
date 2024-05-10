@@ -55,7 +55,7 @@
                         <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fflow%2Flogin"><i class="fa-brands fa-square-x-twitter"></i></a>
                         <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a class="btn btn2" href="assets/Tumisho_resume.pdf" download >Download CV</a>
+                    <a id="button" class="btn btn2" href="assets/Tumisho_resume.pdf" download >Download CV</a>
                 </div>
                 <div class="Contact-right">
                     <form onsubmit="handleFormSubmit(event)">
@@ -63,7 +63,7 @@
                         <input id="surname" type="text" name="Surname" placeholder="Your Surname"><span id="surname-span" class="hidden">Surname is invalid</span>
                         <input id="email" type="email" name="Email" placeholder="Your Email"><span id="email-span" class="hidden">Email is invalid</span>
                         <textarea id="message" name="Message" rows="8" placeholder="Your Message"></textarea><span id="message-span" class="hidden">Message is invaid</span>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <button id="button" type="submit" class="btn btn2">Submit</button>
                     </form>
                 </div>
             </div>
@@ -79,6 +79,9 @@
     </footer>
   </div>
 </div>
+
+<!--Script Tag-->
+<script src="./contact.js"></script>
 
 </body>
 </html>
