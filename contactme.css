@@ -89,7 +89,7 @@ span{
     transform: translateY(-5px);
 }
 
-.btn.btn2{
+#button{
     display: inline-block;
     margin: 50px auto;
     width: fit-content;
